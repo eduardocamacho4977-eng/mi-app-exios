@@ -38,7 +38,9 @@ function App() {
 
   return (
     <div style={{ maxWidth: '420px', margin: '40px auto', fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: '0 16px' }}>
-      <h1>Buscador PokeAPI</h1>
+      <h1>BuscadorPokeAPI</h1>
+
+
 
       {/* Formulario de Búsqueda */}
       <form onSubmit={handleSubmit} style={{ marginBottom: '20px', display: 'flex', gap: '8px', justifyContent: 'center' }}>
@@ -92,7 +94,7 @@ function App() {
           </div>
         )}
 
-            // error
+            
 
         {/* Estado 2: Error */}
         {!cargando && error && (
